@@ -10,6 +10,8 @@ npm i react react-dom
 
 3. webpack - install dev dependencies using --save-dev flag. It compiles and bundles your assets together into one file. We want to install server with live reloads using webpack-dev-server. The cli helps us to run webpack commands or build scripts.
 
+npm i -D webpack webpack-cli 
+
 
 4. Babel - browser friendly code, transpiles code 
    Babel preset-react
@@ -17,8 +19,13 @@ npm i react react-dom
    Babel Loader - compiles JSX which React uses for templating
    html webpack plugin - are build html file.
 
-   npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader file-loader  css-loader sass-loader sass webpack webpack-cli
+   npm i -D @babel/core @babel/preset-env @babel/preset-react babel-loader file-loader  css-loader sass-loader sass webpack webpack-cli html-loader
+
+   .babelrc - include presets
 
 5. Create a webpack.config.js with an entry file. The whole React Source will be in entry file. Output bundle will
 be put in js bundle. Source in html-webpack-plugin to do this work.
+
+(Babel React Tutorial)[https://www.youtube.com/watch?v=ihhPyqfdbjo]
+
 
