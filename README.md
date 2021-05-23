@@ -26,6 +26,6 @@ npm i -D webpack webpack-cli
 5. Create a webpack.config.js with an entry file. The whole React Source will be in entry file. Output bundle will
 be put in js bundle. Source in html-webpack-plugin to do this work.
 
-(Babel React Tutorial)[https://www.youtube.com/watch?v=ihhPyqfdbjo]
+[Babel React Tutorial](https://www.youtube.com/watch?v=ihhPyqfdbjo)
 
 
